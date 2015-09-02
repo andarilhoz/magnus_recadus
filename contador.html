@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Dk Ajuda
+	</title>
+		<script src='script.js'></script>
+		<link rel='stylesheet' href='style.css'/>
+</head>
+
+
+<body>
+  <div id='principal'>
+    <div id='line'>
+    <!--
+      <div id='contaTempo'  class="divFunc">
+        <div id='principalTempo' class="styleDiv">
+          <b>Marca Tempo</b></br>      
+          <p id='tempoNumero' class="outP">&nbsp;</p>
+      
+          <button onclick="tempo()">Inicia/Pausa</button>
+    
+        </div>  
+      </div>
+    -->
+      <div id='calculadoraMinutos' class="divFunc">
+    
+        <div id='principalMinutos' class="styleDiv">
+          <div id='inputDiv'>
+            <p id='titulo' class="outP"><b>Quantidade de Minutos</b></p>
+            <!--
+            <div id="radioDiv">
+              <input id="horas" class="radio" type="radio" name="type" value="horas" checked>Horas<br>
+              <input class="radio" type="radio" name="type" value="minutos">Minutos</br>
+            </div>
+            -->
+            <div id="input">
+              <input type="time" name="Minutos" id="intInput" size="4">
+            </div>
+          </div>
+            <div id='resultDiv'>
+              <div id='resposta'>
+                <p id='res' class="outP"><b>0</b></p>          
+              </div>
+            <button onclick="total()" id="btnCalc">Calcula</button>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*table.db-table 		{ border-right:1px solid #ccc; border-bottom:1px solid #ccc; }
+table.db-table th	{ background:#eee; padding:5px; border-left:1px solid #ccc; border-top:1px solid #ccc; }
+table.db-table td	{ padding:5px; border-left:1px solid #ccc; border-top:1px solid #ccc; }*/
+
+  table
+      {
+        font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse:collapse;
+      }
+      table td, th
+      {
+        border:1px solid #2424FF;
+        padding:3px 7px 2px 7px;
+        background-color: #FFFFFF;
+      }
+      table th
+      {
+        font-size:1.2em;
+        text-align:left;
+        padding-top:5px;
+        padding-bottom:4px;
+        background-color:#2E82FF;
+        color:#fff;
+      }
+      table tr.alt td
+      {
+        color:#000;
+        background-color:#D6EDFF;
+      }
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 100px;
+}
+
+.tooltipTable:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 100px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+
+body{
+  background-image: url('backG.png');
+  background-color: #cccccc;
+  height: 100%;
+}
+
+
+
+.tooltipU{
+    display: inline;
+    position: relative;
+}
+.tooltipU:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 100px;
+}
+
+.tooltipU:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+
+.detalhe{
+  float: right;
+  margin-top: 5%;
+}
+
+
+
+
+.A:nth-child(4){
+  background-color: red;
+}
+.R:nth-child(4){
+  background-color: yellow;
+}
+.F{
+  background-color: green;
+}
+.Disponivel{
+  background-color: green;
+}
+.Ausente{
+  background-color: yellow;  
+}
+.Atendimento{
+  background-color: red;
+}
+
+
+
+
+.ferramentasAdm{
+  float: right;
+  margin-top: -10%;
+  margin-right: 20%;
+}
+
+.alerta{
+  font-size: 4em;
+  color: red;
+  font-style: bold;
+}
+
+
+.centro{
+  padding-left: 10%;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.statusAtendentes{
+  float: left;
+  height: 100%;
+  padding-right: 1%;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.inicio{
+  float: left;
+  padding-right: 1%;
+}
+
+.header{
+  width: 100%;
+  height: 10%;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.navigation{
+  width: 100%;
+  height: 3%;
+  border-radius: 3%;
+  background-color: #D9D9F7;
+}
+
+.loginlogout{
+  float: right;
+  margin-right: 5%;
+}
+
+.footer{
+  width: 100%;
+  height: 10%;
+}
+
+#li {
+    float: left;
+}
+
+#a {
+    display: block;
+    width: 60px;
+}
+
+#log{
+  float: right;
+}
