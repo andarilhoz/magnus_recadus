@@ -8,5 +8,3 @@ Programa para utilizar como recado entre pessoas de setores diferentes
 	Servidor PHP
 
 Foi criado apenas para auxiliar processos internos.	
-
-teste com o felipe
